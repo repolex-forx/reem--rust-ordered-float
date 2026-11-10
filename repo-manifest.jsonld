@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/reem/rust-ordered-float/commit/aa4c4f2deb34472828e27c61218e6a60abe42c86",
       "git:hexsha": "aa4c4f2deb34472828e27c61218e6a60abe42c86",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-10T04:09:53.727334+00:00"
     },
     {
       "@id": "https://repolex.ai/r/reem/rust-ordered-float/commit/9a08066234edfa223fad5a290167992ecbbb57f4",
