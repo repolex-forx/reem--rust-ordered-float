@@ -1,0 +1,30 @@
+{
+  "manifest_version": "1.0",
+  "org": "reem",
+  "repo": "rust-ordered-float",
+  "versions": [
+    {
+      "commit": "aa4c4f2deb34472828e27c61218e6a60abe42c86",
+      "parsed_at": "2026-11-10T04:07:33.851415+00:00",
+      "filetree": "filetree/aa4c4f2deb34472828e27c61218e6a60abe42c86.nq.gz",
+      "blobs": [
+        "blob/39892cb6a08b5a961862e3d1157b265060da3a3e.nq.gz",
+        "blob/6dd94868be248e6f0797d69e33e197d5aa99d54b.nq.gz",
+        "blob/b3b7cf91032fd2d546fd917b51ee5ac1f64b4757.nq.gz",
+        "blob/81ef046da847dcadc70e15429f9cb89bbe88f98f.nq.gz",
+        "blob/917e89c9e9794e7cceb5bad697b96c6b79e5c611.nq.gz",
+        "blob/5ae333d96ade51ff956b93283c50ef9919e3f8b5.nq.gz",
+        "blob/781fffa416c4c8c38485f4606cdc855e17835565.nq.gz",
+        "blob/c8e0f5ec7a510d34578abc9a1bd8adbb1b7c089c.nq.gz",
+        "blob/8b352de4e5e14f76095cce7afe920402761fe893.nq.gz",
+        "blob/e333edc9dbbe4aa5453552cd435a7bd445919708.nq.gz",
+        "blob/3d0334642c444acd54b751f1279a8d1e9ee7276d.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
