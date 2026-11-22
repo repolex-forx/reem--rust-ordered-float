@@ -3,6 +3,11 @@
   "repo": "rust-ordered-float",
   "versions": [
     {
+      "commit": "6cca9b87766aa086e4dde8e646f66aa975bdf757",
+      "tag": "v5.3.0",
+      "parsed_at": "2026-11-22T01:56:24.627182+00:00"
+    },
+    {
       "commit": "aa4c4f2deb34472828e27c61218e6a60abe42c86",
       "tag": "",
       "parsed_at": "2026-11-10T04:09:53.727960+00:00"
