@@ -1,0 +1,19 @@
+[2026-11-22T01:52:52Z] === ENRICH ITERATION 1 START | repo=reem/rust-ordered-float sha=6cca9b87 ===
+[2026-11-22T01:52:52Z] [iter=1] PHASE START: enrich repo=reem/rust-ordered-float sha=6cca9b87 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6cca9b87-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6cca9b87766aa086e4dde8e646f66aa975bdf757.nq.gz
+[2026-11-22T01:53:07Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T01:53:09Z] [iter=1] AST store loaded triples=169847 load_secs=1 mem_mb=318 MB
+[2026-11-22T01:53:09Z] [iter=1] Step 2: Finding LSP targets mem_mb=318 MB
+[2026-11-22T01:53:09Z] [iter=1] LSP targets found call_sites=1381 imports=56 extends=0 implements=162 secs=0
+[2026-11-22T01:53:09Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=318 MB
+[2026-11-22T01:53:10Z] [iter=1] Position index built positions=11253 nodes_with_types=13333 secs=1 mem_mb=318 MB
+[2026-11-22T01:53:10Z] [iter=1] Step 3: Starting LSP resolution mem_mb=318 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T01:53:10Z] [iter=1] Resolving target type target_type=call_site count=1381
+[2026-11-22T01:53:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=1 resolved=624 errors=0 current=tests/test.rs
+[2026-11-22T01:53:42Z] [iter=1] Target type resolved target_type=call_site resolved=1048 errors=0 secs=33 mem_mb=318 MB
+[2026-11-22T01:53:42Z] [iter=1] Resolving target type target_type=import_statement count=56
+[2026-11-22T01:53:49Z] [iter=1] Target type resolved target_type=import_statement resolved=44 errors=0 secs=7 mem_mb=318 MB
+[2026-11-22T01:53:49Z] [iter=1] Resolving target type target_type=implements_clause count=162
+[2026-11-22T01:53:56Z] [iter=1] Target type resolved target_type=implements_clause resolved=116 errors=0 secs=7 mem_mb=318 MB
+[2026-11-22T01:54:39Z] [iter=1] Step 5: Writing final enrichment file triples=14457
+[2026-11-22T01:54:40Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/6cca9b87766aa086e4dde8e646f66aa975bdf757.nq.gz size_kb=231
+[2026-11-22T01:54:40Z] [iter=1] PHASE END: enrich elapsed_s=108 elapsed_min=1.8 total_triples=14457

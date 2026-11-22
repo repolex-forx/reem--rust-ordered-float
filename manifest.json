@@ -51,6 +51,144 @@
       ],
       "ast": [
         "aggregate/ast/6cca9b87766aa086e4dde8e646f66aa975bdf757/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/6cca9b87766aa086e4dde8e646f66aa975bdf757.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "arbitrary",
+          "ecosystem": "CARGO",
+          "version": "1.0.0",
+          "githubOrg": "rust-fuzz",
+          "githubRepo": "arbitrary",
+          "githubCommit": "83b852c9bba47359ad33fc5b1f81f29425bc97e8",
+          "githubTag": "1.0.0",
+          "githubUrl": "https://github.com/rust-fuzz/arbitrary/",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "borsh",
+          "ecosystem": "CARGO",
+          "version": "1.2.0",
+          "githubOrg": "near",
+          "githubRepo": "borsh-rs",
+          "githubUrl": "https://github.com/near/borsh-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bytemuck",
+          "ecosystem": "CARGO",
+          "version": "1.12.2",
+          "githubOrg": "Lokathor",
+          "githubRepo": "bytemuck",
+          "githubCommit": "7b67524a43aeee8c8e07ad8f4486cfe81e51591c",
+          "githubTag": "v1.12.2",
+          "githubUrl": "https://github.com/Lokathor/bytemuck",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "derive-visitor",
+          "ecosystem": "CARGO",
+          "version": "0.4.0",
+          "githubOrg": "nikis05",
+          "githubRepo": "derive-visitor",
+          "githubUrl": "https://github.com/nikis05/derive-visitor",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "num-cmp",
+          "ecosystem": "CARGO",
+          "version": "0.1.0",
+          "githubOrg": "lifthrasiir",
+          "githubRepo": "num-cmp",
+          "githubCommit": "d36b130d11cdeb7953181a3235661e5ed868c776",
+          "githubTag": "v0.1.0",
+          "githubUrl": "https://github.com/lifthrasiir/num-cmp",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "num-traits",
+          "ecosystem": "CARGO",
+          "version": "0.2.9",
+          "githubOrg": "rust-num",
+          "githubRepo": "num-traits",
+          "githubCommit": "8eb83e242a54af1da0f968266dab79fb4e5c6921",
+          "githubTag": "num-traits-0.2.9",
+          "githubUrl": "https://github.com/rust-num/num-traits",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "proptest",
+          "ecosystem": "CARGO",
+          "version": "1.0.0",
+          "githubOrg": "proptest-rs",
+          "githubRepo": "proptest",
+          "githubCommit": "1ad340e7c2276d0afc4c0ac13040a1861d198895",
+          "githubTag": "1.0.0",
+          "githubUrl": "https://github.com/proptest-rs/proptest",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8.3",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "6ecbe2626b2cc6110a25c97b1702b347574febc7",
+          "githubTag": "0.8.3",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rkyv",
+          "ecosystem": "CARGO",
+          "version": "0.7.41",
+          "githubOrg": "rkyv",
+          "githubRepo": "rkyv",
+          "githubCommit": "aa8b1a82cb1dd6c5bc4ec5941cf865f6ebab9472",
+          "githubTag": "v0.7.41",
+          "githubUrl": "https://github.com/rkyv/rkyv",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "schemars",
+          "ecosystem": "CARGO",
+          "version": "0.8.8",
+          "githubOrg": "GREsau",
+          "githubRepo": "schemars",
+          "githubCommit": "e9d5f4057e84f37a4519a5413ddded82cb13ea71",
+          "githubTag": "v0.8.8",
+          "githubUrl": "https://github.com/GREsau/schemars",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "speedy",
+          "ecosystem": "CARGO",
+          "version": "0.8.3",
+          "githubOrg": "koute",
+          "githubRepo": "speedy",
+          "githubCommit": "deb227d23bcac3798e9c103d6cf2306a28d86261",
+          "githubTag": "0.8.3",
+          "githubUrl": "https://github.com/koute/speedy",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_test",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "test",
+          "githubUrl": "https://github.com/serde-rs/test",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
